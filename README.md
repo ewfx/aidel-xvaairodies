@@ -16,7 +16,11 @@ entities, pre-trained on data of corporates and other entities (like govt orgs, 
 shell companies and bogus transactions. 
 
 ## 🎥 Demo
-📹 [Video Demo](#) demo added in artifact  
+📹 [Video Demo](#)
+(https://github.com/ewfx/aidel-xvaairodies/blob/main/artifacts/demo/Demo.mp4)
+[https://github.com/ewfx/aidel-xvaairodies/blob/main/artifacts/demo/Demo.mp4]
+
+demo added in artifact  
 
 ## 💡 Inspiration
 Being from the risk division, it was natural to pick a problem that identifies the risk associated with transactions and different entities.

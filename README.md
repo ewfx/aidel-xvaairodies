@@ -1,60 +1,54 @@
-# 🚀 Project Name
+# 🚀 AI-Driven Entity Intelligence Risk Analysis
 
 ## 📌 Table of Contents
 - [Introduction](#introduction)
 - [Demo](#demo)
 - [Inspiration](#inspiration)
 - [What It Does](#what-it-does)
-- [How We Built It](#how-we-built-it)
-- [Challenges We Faced](#challenges-we-faced)
 - [How to Run](#how-to-run)
-- [Tech Stack](#tech-stack)
 - [Team](#team)
 
 ---
 
 ## 🎯 Introduction
-A brief overview of your project and its purpose. Mention which problem statement are your attempting to solve. Keep it concise and engaging.
+AI-Driven Entity Intelligence Risk Analysis aims to analyse transactions and calculate the risk involved in a transaction between multiple types of
+entities, pre-trained on data of corporates and other entities (like govt orgs, NGOs etc), the system provides a robust mechanism towards identifying
+shell companies and bogus transactions. 
 
 ## 🎥 Demo
-🔗 [Live Demo](#) (if applicable)  
-📹 [Video Demo](#) (if applicable)  
-🖼️ Screenshots:
-
-![Screenshot 1](link-to-image)
+📹 [Video Demo](#) demo added in artifact  
 
 ## 💡 Inspiration
-What inspired you to create this project? Describe the problem you're solving.
+Being from the risk division, it was natural to pick a problem that identifies the risk associated with transactions and different entities.
 
 ## ⚙️ What It Does
-Explain the key features and functionalities of your project.
-
-## 🛠️ How We Built It
-Briefly outline the technologies, frameworks, and tools used in development.
-
-## 🚧 Challenges We Faced
-Describe the major technical or non-technical challenges your team encountered.
+The system loads, enhances, and visualizes the dataset. It uses Named Entity Recognition (NER) to process the information obtained from the dataset
+and identify named entities, using a specified pre-trained model and incorporating a straightforward aggregation strategy. The model further uses
+Isolation Forest to predict risk from the amount. This is followed by making predictions about the transaction input. 
 
 ## 🏃 How to Run
 1. Clone the repository  
    ```sh
-   git clone https://github.com/your-repo.git
+   git clone https://github.com/deepahuja17/AI_Roadies.git
    ```
 2. Install dependencies  
    ```sh
-   npm install  # or pip install -r requirements.txt (for Python)
+   pip install -r requirements.txt
    ```
 3. Run the project  
    ```sh
-   npm start  # or python app.py
+   python main.py
    ```
 
-## 🏗️ Tech Stack
-- 🔹 Frontend: React / Vue / Angular
-- 🔹 Backend: Node.js / FastAPI / Django
-- 🔹 Database: PostgreSQL / Firebase
-- 🔹 Other: OpenAI API / Twilio / Stripe
+NOTE: For pipeline functionality used in the project, install the following manually:
+ ```sh
+git clone https://github.com/huggingface/transformers.git
+cd transformers
+pip install .
+```
 
 ## 👥 Team
-- **Your Name** - [GitHub](#) | [LinkedIn](#)
-- **Teammate 2** - [GitHub](#) | [LinkedIn](#)
+- **Deep Ahuja**
+- **Vishnu Awasthi**
+- **Diksha Shukla**
+- **Aditya Saxena**
